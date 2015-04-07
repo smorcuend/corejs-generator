@@ -1,0 +1,8 @@
+{
+    "browsers": {
+        "chrome": {
+            "browserName": "chrome"
+        }
+    },
+    "reporter": "tap"
+}

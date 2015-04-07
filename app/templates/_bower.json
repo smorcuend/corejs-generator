@@ -1,0 +1,15 @@
+{
+    "name": "<%- appName %>",
+    "description": "Web App description",
+    "version": "0.1.0",
+    "homepage": "http://bitbloq.bq.com/",
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@stash.bq.com:7999/swrob/bitbloq-corejs-app.git"
+    },
+    "contributors": [],
+    "dependencies": {
+        "corejs": "master",
+        "kiui": "master"
+    }
+}

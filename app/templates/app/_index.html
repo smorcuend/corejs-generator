@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Standard html meta tags -->
+    <title>
+        <%- appName %>
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="coreJS">
+    <meta name="description" content="coreJS project boilerplate">
+    <meta name="keywords" content="corejs, javascript, backbone, boilerplate">
+    <meta name="application-name" content="corejs boilerplate">
+    <meta name="copyright" content="coreJS">
+    <!-- Dublin core -->
+    <meta name="DCTERMS.rightsHolder" content="coreJS" />
+    <meta name="DCTERMS.Title" content="corejs boilerplate">
+    <meta name="DCTERMS.Creator" content="coreJS">
+    <meta name="DCTERMS.Subject" content="corejs, javascript, backbone, boilerplate">
+    <meta name="DCTERMS.Description" content="coreJS project boilerplate">
+    <meta name="DCTERMS.Publisher" content="coreJS">
+    <meta name="DCTERMS.Language" content="es">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="corejs-app-boilerplate">
+    <meta itemprop="description" content="coreJS project boilerplate">
+    <meta itemprop="url" content="http://corejs.docs.bqws.io/">
+    <meta itemprop="image" content="img/common/app-logo.png">
+    <meta itemprop="author" content="coreJS">
+    <meta itemprop="datePublished" content="20-11-2014">
+    <meta itemprop="operatingSystems" content="Windows, Linux, Mac OS">
+    <meta itemprop="applicationCategory" content="corejs, javascript, backbone, boilerplate">
+    <meta itemprop="softwareVersion" content="0.0.1">
+    <meta itemprop="browserRequirements" content="HTML5, Google Chrome, JavaScript">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@twitterAccount">
+    <meta name="twitter:creator" content="@twitterAccount">
+    <meta name="twitter:title" content="corejs">
+    <meta name="twitter:description" content="coreJS project boilerplate">
+    <!-- La imagen debe ser de menos de 1Mb, y como mínimo de 280x150 en el ejemplo de twitter usan una de 480 x 270 (para la summary card with large image)-->
+    <meta name="twitter:image:src" content="img/common/twitter-card.jpg">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="corejs boilerplate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://corejs.docs.bqws.io/" />
+    <!-- La imagen debe estar a 1200 x 630 -->
+    <meta property="og:image" content="img/common/img_1200x630.png" />
+    <meta property="og:description" content="coreJS project boilerplate" />
+    <meta property="og:site_name" content="corejs" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="img/common/favicon.ico">
+    <link rel="apple-touch-icon" href="img/common/touch-icon.png">
+    <!-- build:css(.tmp) css/main.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div data-region="main"></div>
+    <!-- build:js scripts/main.js -->
+    <script>
+    var require = {
+        baseUrl: 'scripts'
+    };
+    </script>
+    <script src="bower_components/requirejs/require.js"></script>
+    <script src="scripts/define.js"></script>
+    <!-- endbuild -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-00000000-0', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

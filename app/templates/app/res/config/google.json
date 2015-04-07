@@ -1,0 +1,15 @@
+{
+	"client_id":"846494928917-uj5odicj3fe7jn0in4a6lko0v0diuic2.apps.googleusercontent.com",
+	"apikey":"6OYUuF4O3j0nsSeKCRr8kF9G",
+	"scope":[
+		"https://www.googleapis.com/auth/plus.login",
+		"https://www.googleapis.com/auth/plus.me",
+		"https://www.googleapis.com/auth/userinfo.email",
+		"https://www.googleapis.com/auth/userinfo.profile"
+	],
+	"apis":[{
+		"name": "plus",
+		"version": "v1"
+	}],
+	"visibleActions": "http://schemas.google.com/AddActivity"
+}
