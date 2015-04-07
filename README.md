@@ -4,7 +4,7 @@ A Yeoman generator for coreJS projects.
 
 ## Usage
 
-1. Install `yo`, `grunt`, `bower`, `generator-angular` and `generator-karma`:
+1. Install `yo`, `grunt`, `bower`, `generator-corejs`:
 ```
 npm install -g grunt bower yo generator-corejs
 ```
@@ -16,7 +16,7 @@ mkdir my-new-project && cd $_
 
 3. Run `yo corejs`, optionally passing an app name:
 ```
-yo angular [app-name]
+yo corejs [app-name]
 ```
 
 Run `grunt` for building and `grunt server` for preview. For more details to manage your corejs project with grunt see [this documentation.](http://corejs.docs.bqws.io/grunt/)
